@@ -56,7 +56,11 @@ with st.sidebar:
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
-def fmt_eur(v: float) -> str:
+def fmt_eur(v) -> str:
+    try:
+        v = float(str(v).replace("€", "").replace(",", "").strip())
+    except (ValueError, TypeError):
+        return str(v)
     if abs(v) >= 1_000_000:
         return f"€{v/1_000_000:.1f}M"
     if abs(v) >= 1_000:
