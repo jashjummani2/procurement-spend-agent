@@ -4,6 +4,7 @@ from typing import Any, Callable, Optional
 
 import pandas as pd
 from huggingface_hub import InferenceClient
+from json_repair import repair_json
 
 _SYSTEM = """You are a senior procurement consultant with 15 years of experience in
 spend analysis, strategic sourcing, and cost optimisation. You produce board-ready
@@ -23,19 +24,24 @@ def _get_secret(key: str, default: str = "") -> str:
     return os.environ.get(key, default)
 
 
-def _strip_fences(text: str) -> str:
+def _parse_json(text: str) -> dict:
+    """Strip code fences then parse, repairing common LLM JSON issues."""
     if "```json" in text:
         text = text.split("```json", 1)[1].split("```", 1)[0]
     elif "```" in text:
         text = text.split("```", 1)[1].split("```", 1)[0]
-    return text.strip()
+    text = text.strip()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return json.loads(repair_json(text))
 
 
 class SpendAnalysisAgent:
     def __init__(self, progress_callback: Optional[Callable[[str], None]] = None) -> None:
         self._log = progress_callback or (lambda _: None)
         self._client = InferenceClient(
-            model=_get_secret("HF_MODEL", "mistralai/Mistral-7B-Instruct-v0.3"),
+            model=_get_secret("HF_MODEL", "Qwen/Qwen2.5-72B-Instruct"),
             token=_get_secret("HF_API_TOKEN"),
         )
 
@@ -267,4 +273,4 @@ Use specific numbers from the data. Savings estimates must be 5-15% of addressab
             max_tokens=3000,
         )
         raw = response.choices[0].message.content or ""
-        return json.loads(_strip_fences(raw))
+        return _parse_json(raw)

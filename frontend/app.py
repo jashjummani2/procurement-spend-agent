@@ -1,6 +1,10 @@
 """Procurement Spend Analysis Agent — Streamlit app (self-contained, no FastAPI)."""
 
 import io
+from pathlib import Path
+
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 import pandas as pd
 import plotly.express as px
