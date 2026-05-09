@@ -1,0 +1,42 @@
+category,sub_category,savings_potential_pct,category_type,strategic_importance,typical_approach
+IT & Software,Software Licences,12,Indirect,High,Volume consolidation / EA renegotiation
+IT & Software,Cloud Infrastructure,18,Indirect,High,Reserved instances / right-sizing / multi-cloud
+IT & Software,Cybersecurity,8,Indirect,High,Bundle with preferred supplier
+IT & Software,Hardware,10,Indirect,Medium,Framework agreements / refresh cycle optimisation
+IT & Software,Software Development,15,Indirect,Medium,Nearshoring / fixed-price contracts
+IT & Software,ERP Customisation,20,Indirect,Medium,Scope control / preferred supplier consolidation
+IT & Software,IT Support,10,Indirect,Low,Managed service SLA renegotiation
+IT & Software,Endpoint Protection,8,Indirect,High,Bundle into cybersecurity contract
+IT & Software,Firewall Licences,8,Indirect,High,Bundle into cybersecurity contract
+IT & Software,Data Storage,20,Indirect,Medium,Cloud tiering / archiving strategy
+Facilities Management,Cleaning Services,12,Indirect,Low,Scope review / integrated FM bundle
+Facilities Management,Maintenance & Repair,15,Indirect,Medium,Preventive maintenance programme / SLA
+Facilities Management,HVAC Maintenance,14,Indirect,Medium,Preventive schedule / energy optimisation
+Facilities Management,Security Services,10,Indirect,Medium,Consolidate to preferred supplier
+Facilities Management,Landscaping,20,Indirect,Low,Seasonal contract / reduce scope
+Facilities Management,Electrical Works,10,Indirect,Medium,Framework agreement
+Facilities Management,Plumbing & Utilities,10,Indirect,Low,Framework agreement
+Professional Services,Strategy Consulting,8,Services,High,Rate card negotiation / project scoping discipline
+Professional Services,Financial Advisory,8,Services,High,Retainer vs project-based pricing
+Professional Services,M&A Due Diligence,6,Services,High,Scope control / preferred panel
+Professional Services,M&A Integration,6,Services,High,Scope control / milestone-based billing
+Professional Services,Market Research,15,Services,Medium,Off-the-shelf reports / scope reduction
+Professional Services,Project Management,12,Services,Medium,Insource / preferred supplier at fixed rate
+Professional Services,Change Management,12,Services,Medium,Package with preferred supplier
+Professional Services,IT Consulting,15,Services,Medium,Insource or nearshore
+Professional Services,PMO Support,12,Services,Medium,Partial insourcing
+Marketing & Comms,Digital Advertising,15,Indirect,High,Programmatic / agency fee renegotiation
+Marketing & Comms,Campaign Management,12,Indirect,High,Consolidate agencies / performance model
+Marketing & Comms,Brand Strategy,10,Services,Medium,Scope control / retainer
+Marketing & Comms,Events & Sponsorship,20,Indirect,Medium,Scope reduction / in-house events
+Marketing & Comms,Content Production,15,Indirect,Medium,Content calendar / retainer model
+Marketing & Comms,SEO & Performance,15,Indirect,Medium,In-house capability / performance model
+Marketing & Comms,Social Media Management,20,Indirect,Low,In-house capability
+Marketing & Comms,PPC Campaigns,18,Indirect,Medium,Consolidate with preferred agency
+HR & Recruitment,Recruitment Fees,20,Services,High,Preferred PSL / reduce contingency %
+HR & Recruitment,Executive Search,12,Services,High,Retainer model / reduce success fee
+HR & Recruitment,HR Outsourcing,10,Services,Medium,Scope review / SLA renegotiation
+HR & Recruitment,Payroll Processing,8,Services,Low,Automation / single vendor
+Travel & Expenses,Business Travel,20,Indirect,Medium,Policy enforcement / online booking tool
+Travel & Expenses,Air Travel,22,Indirect,Medium,Advance booking / preferred airlines
+Travel & Expenses,Hotel & Accommodation,18,Indirect,Medium,Rate agreements / preferred hotels

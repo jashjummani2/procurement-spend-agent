@@ -1,0 +1,20 @@
+supplier_id,supplier_name,category,contract_status,preferred_status,payment_terms,annual_spend_budget,country,contract_expiry,account_manager
+SUP-001,TechPro Solutions,IT & Software,Active,Preferred,NET30,150000,Germany,2025-12-31,James Kowalski
+SUP-002,CloudBase Ltd,IT & Software,Active,Preferred,NET30,120000,Netherlands,2025-06-30,Sarah Chen
+SUP-003,DataSec International,IT & Software,Active,Preferred,NET30,75000,United Kingdom,2025-12-31,Michael Torres
+SUP-004,SoftEdge AG,IT & Software,Active,Non-Preferred,NET30,50000,Switzerland,2024-09-30,Nina Vogel
+SUP-005,CyberShield Ltd,IT & Software,Inactive,Non-Preferred,NET30,0,Ireland,2023-12-31,
+SUP-006,CleanRight FM,Facilities Management,Active,Preferred,NET60,60000,Germany,2026-03-31,Thomas Bauer
+SUP-007,BuildServ Ltd,Facilities Management,Active,Preferred,NET60,90000,Germany,2025-09-30,Anna Schulz
+SUP-008,SafetyFirst Co,Facilities Management,Active,Non-Preferred,NET60,40000,Germany,2024-12-31,Peter Jung
+SUP-009,GreenSpace FM,Facilities Management,Inactive,Non-Preferred,NET60,0,Germany,2023-06-30,
+SUP-010,MediaEdge Agency,Marketing & Comms,Active,Preferred,NET30,130000,United Kingdom,2025-12-31,Claire Reynolds
+SUP-011,Brand Connect Ltd,Marketing & Comms,Active,Preferred,NET30,100000,Germany,2025-12-31,David Fischer
+SUP-012,Digital Spark,Marketing & Comms,Active,Non-Preferred,NET30,35000,France,2024-06-30,Lucie Dupont
+SUP-013,McKay Advisory,Professional Services,Active,Preferred,NET45,200000,United Kingdom,2025-12-31,Robert McKay
+SUP-014,Stratford Partners,Professional Services,Active,Preferred,NET45,180000,Germany,2025-06-30,Elke Hoffmann
+SUP-015,ConsultCo Ltd,Professional Services,Active,Non-Preferred,NET30,60000,Netherlands,2024-12-31,Jan van Dijk
+SUP-016,TalentBridge,HR & Recruitment,Active,Preferred,NET30,100000,Germany,2025-12-31,Mia Schmidt
+SUP-017,HRPro Services,HR & Recruitment,Active,Preferred,NET30,70000,Austria,2025-06-30,Karl Weber
+SUP-018,GlobalTravel Corp,Travel & Expenses,Active,Preferred,NET30,60000,United Kingdom,2025-12-31,Helen Moore
+SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Active,Non-Preferred,NET30,30000,Germany,2024-03-31,Frank Richter

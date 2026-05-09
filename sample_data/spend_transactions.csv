@@ -1,0 +1,241 @@
+transaction_id,date,supplier_id,supplier_name,category,sub_category,amount,department,cost_center,invoice_number,payment_terms
+TXN-001,2024-01-08,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2401,NET30
+TXN-002,2024-01-09,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,8900.00,IT,CC-003,INV-CB-2401,NET30
+TXN-003,2024-01-10,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240110,NET60
+TXN-004,2024-01-11,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240111,NET45
+TXN-005,2024-01-12,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240112,NET30
+TXN-006,2024-01-15,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,6800.00,HR,CC-004,INV-TB-240115,NET30
+TXN-007,2024-01-16,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,3200.00,Sales,CC-006,INV-GT-240116,NET30
+TXN-008,2024-01-17,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,7600.00,Operations,CC-001,INV-BS-240117,NET60
+TXN-009,2024-01-18,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240118,NET30
+TXN-010,2024-01-19,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240119,NET45
+TXN-011,2024-01-22,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,7200.00,Marketing,CC-005,INV-BC-240122,NET30
+TXN-012,2024-01-23,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240123,NET30
+TXN-013,2024-01-24,SUP-001,TechPro Solutions,IT & Software,Hardware,3800.00,IT,CC-003,INV-TP-2402,NET30
+TXN-014,2024-01-25,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240125,NET60
+TXN-015,2024-01-26,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4800.00,Finance,CC-002,INV-EF-240126,NET30
+TXN-016,2024-01-29,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,9200.00,IT,CC-003,INV-SE-240129,NET30
+TXN-017,2024-01-30,SUP-013,McKay Advisory,Professional Services,Market Research,11000.00,Finance,CC-002,INV-MK-240130,NET45
+TXN-018,2024-02-01,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2402,NET30
+TXN-019,2024-02-02,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,11200.00,Marketing,CC-005,INV-ME-240202,NET30
+TXN-020,2024-02-05,SUP-007,BuildServ Ltd,Facilities Management,HVAC Maintenance,5800.00,Operations,CC-001,INV-BS-240205,NET60
+TXN-021,2024-02-06,SUP-015,ConsultCo Ltd,Professional Services,Project Management,8500.00,Finance,CC-002,INV-CC-240206,NET30
+TXN-022,2024-02-07,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,7200.00,HR,CC-004,INV-TB-240207,NET30
+TXN-023,2024-02-08,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,2900.00,Operations,CC-001,INV-GT-240208,NET30
+TXN-024,2024-02-09,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2401,NET30
+TXN-025,2024-02-12,SUP-008,SafetyFirst Co,Facilities Management,Security Services,6300.00,Operations,CC-001,INV-SF-240212,NET60
+TXN-026,2024-02-13,SUP-014,Stratford Partners,Professional Services,M&A Due Diligence,22000.00,Finance,CC-002,INV-SP-240213,NET45
+TXN-027,2024-02-14,SUP-011,Brand Connect Ltd,Marketing & Comms,Content Production,8900.00,Marketing,CC-005,INV-BC-240214,NET30
+TXN-028,2024-02-15,SUP-003,DataSec International,IT & Software,Penetration Testing,7800.00,IT,CC-003,INV-DS-240215,NET30
+TXN-029,2024-02-16,SUP-017,HRPro Services,HR & Recruitment,Payroll Processing,4800.00,HR,CC-004,INV-HP-240216,NET30
+TXN-030,2024-02-19,SUP-005,CyberShield Ltd,IT & Software,Firewall Licences,6100.00,IT,CC-003,INV-CS-240219,NET30
+TXN-031,2024-02-20,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240220,NET45
+TXN-032,2024-02-21,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240221,NET60
+TXN-033,2024-02-22,SUP-012,Digital Spark,Marketing & Comms,SEO & Performance,4500.00,Marketing,CC-005,INV-DI-240222,NET30
+TXN-034,2024-02-23,SUP-002,CloudBase Ltd,IT & Software,Data Storage,3600.00,IT,CC-003,INV-CB-2403,NET30
+TXN-035,2024-02-26,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,5100.00,Finance,CC-002,INV-EF-240226,NET30
+TXN-036,2024-02-27,SUP-016,TalentBridge,HR & Recruitment,Executive Search,12500.00,HR,CC-004,INV-TB-240227,NET30
+TXN-037,2024-02-28,SUP-007,BuildServ Ltd,Facilities Management,Electrical Works,9400.00,Operations,CC-001,INV-BS-240228,NET60
+TXN-038,2024-03-01,SUP-001,TechPro Solutions,IT & Software,IT Support,6200.00,IT,CC-003,INV-TP-2403,NET30
+TXN-039,2024-03-04,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-007,INV-SP-240304,NET45
+TXN-040,2024-03-05,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,13500.00,Marketing,CC-005,INV-ME-240305,NET30
+TXN-041,2024-03-06,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240306,NET30
+TXN-042,2024-03-07,SUP-018,GlobalTravel Corp,Travel & Expenses,Hotel & Accommodation,4100.00,Sales,CC-006,INV-GT-240307,NET30
+TXN-043,2024-03-08,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240308,NET60
+TXN-044,2024-03-11,SUP-004,SoftEdge AG,IT & Software,Software Development,11500.00,IT,CC-003,INV-SE-240311,NET30
+TXN-045,2024-03-12,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240312,NET45
+TXN-046,2024-03-13,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,6800.00,Marketing,CC-005,INV-BC-240313,NET30
+TXN-047,2024-03-14,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240314,NET30
+TXN-048,2024-03-15,SUP-009,GreenSpace FM,Facilities Management,Landscaping,3200.00,Operations,CC-001,INV-GS-240315,NET60
+TXN-049,2024-03-18,SUP-015,ConsultCo Ltd,Professional Services,Change Management,9200.00,HR,CC-004,INV-CC-240318,NET30
+TXN-050,2024-03-19,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2404,NET30
+TXN-051,2024-03-20,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4600.00,Sales,CC-006,INV-EF-240320,NET30
+TXN-052,2024-03-21,SUP-007,BuildServ Ltd,Facilities Management,Plumbing & Utilities,4800.00,Operations,CC-001,INV-BS-240321,NET60
+TXN-053,2024-03-22,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,8100.00,Finance,CC-002,INV-TB-240322,NET30
+TXN-054,2024-03-25,SUP-008,SafetyFirst Co,Facilities Management,Fire Safety Inspection,2800.00,Operations,CC-001,INV-SF-240325,NET60
+TXN-055,2024-03-26,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240326,NET30
+TXN-056,2024-03-27,SUP-014,Stratford Partners,Professional Services,M&A Due Diligence,26000.00,Finance,CC-002,INV-SP-240327,NET45
+TXN-057,2024-03-28,SUP-005,CyberShield Ltd,IT & Software,Endpoint Protection,4900.00,IT,CC-003,INV-CS-240328,NET30
+TXN-058,2024-04-01,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2404,NET30
+TXN-059,2024-04-02,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240402,NET60
+TXN-060,2024-04-03,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240403,NET45
+TXN-061,2024-04-04,SUP-011,Brand Connect Ltd,Marketing & Comms,Events & Sponsorship,15500.00,Marketing,CC-005,INV-BC-240404,NET30
+TXN-062,2024-04-05,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240405,NET30
+TXN-063,2024-04-08,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2405,NET30
+TXN-064,2024-04-09,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,3700.00,Marketing,CC-005,INV-GT-240409,NET30
+TXN-065,2024-04-10,SUP-015,ConsultCo Ltd,Professional Services,IT Consulting,7600.00,IT,CC-003,INV-CC-240410,NET30
+TXN-066,2024-04-11,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,5200.00,Operations,CC-001,INV-BS-240411,NET60
+TXN-067,2024-04-12,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,8800.00,Finance,CC-002,INV-SE-240412,NET30
+TXN-068,2024-04-15,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240415,NET30
+TXN-069,2024-04-16,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,6900.00,Sales,CC-006,INV-TB-240416,NET30
+TXN-070,2024-04-17,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,10800.00,Marketing,CC-005,INV-ME-240417,NET30
+TXN-071,2024-04-18,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4200.00,Finance,CC-002,INV-EF-240418,NET30
+TXN-072,2024-04-19,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240419,NET45
+TXN-073,2024-04-22,SUP-012,Digital Spark,Marketing & Comms,Social Media Management,4800.00,Marketing,CC-005,INV-DI-240422,NET30
+TXN-074,2024-04-23,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240423,NET60
+TXN-075,2024-04-24,SUP-008,SafetyFirst Co,Facilities Management,Security Services,6300.00,Operations,CC-008,INV-SF-240424,NET60
+TXN-076,2024-04-25,SUP-001,TechPro Solutions,IT & Software,Hardware,6500.00,IT,CC-003,INV-TP-2405,NET30
+TXN-077,2024-04-26,SUP-013,McKay Advisory,Professional Services,Market Research,9500.00,Finance,CC-002,INV-MK-240426,NET45
+TXN-078,2024-04-29,SUP-002,CloudBase Ltd,IT & Software,Data Storage,4200.00,IT,CC-003,INV-CB-2406,NET30
+TXN-079,2024-04-30,SUP-005,CyberShield Ltd,IT & Software,Firewall Licences,6100.00,IT,CC-003,INV-CS-240430,NET30
+TXN-080,2024-05-02,SUP-007,BuildServ Ltd,Facilities Management,HVAC Maintenance,5800.00,Operations,CC-001,INV-BS-240502,NET60
+TXN-081,2024-05-03,SUP-017,HRPro Services,HR & Recruitment,Payroll Processing,4800.00,HR,CC-004,INV-HP-240503,NET30
+TXN-082,2024-05-06,SUP-014,Stratford Partners,Professional Services,M&A Due Diligence,31000.00,Finance,CC-002,INV-SP-240506,NET45
+TXN-083,2024-05-07,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,11500.00,Marketing,CC-005,INV-ME-240507,NET30
+TXN-084,2024-05-08,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240508,NET60
+TXN-085,2024-05-09,SUP-016,TalentBridge,HR & Recruitment,Executive Search,14000.00,Finance,CC-002,INV-TB-240509,NET30
+TXN-086,2024-05-10,SUP-015,ConsultCo Ltd,Professional Services,Project Management,8200.00,Operations,CC-001,INV-CC-240510,NET30
+TXN-087,2024-05-13,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2406,NET30
+TXN-088,2024-05-14,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240514,NET30
+TXN-089,2024-05-15,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,7100.00,Marketing,CC-005,INV-BC-240515,NET30
+TXN-090,2024-05-16,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,4300.00,Sales,CC-006,INV-GT-240516,NET30
+TXN-091,2024-05-17,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240517,NET45
+TXN-092,2024-05-20,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2407,NET30
+TXN-093,2024-05-21,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,3900.00,HR,CC-004,INV-EF-240521,NET30
+TXN-094,2024-05-22,SUP-007,BuildServ Ltd,Facilities Management,Roofing Works,18500.00,Operations,CC-001,INV-BS-240522,NET60
+TXN-095,2024-05-23,SUP-004,SoftEdge AG,IT & Software,Software Development,14200.00,IT,CC-003,INV-SE-240523,NET30
+TXN-096,2024-05-27,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240527,NET60
+TXN-097,2024-05-28,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240528,NET30
+TXN-098,2024-05-29,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240529,NET45
+TXN-099,2024-05-30,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240530,NET30
+TXN-100,2024-06-03,SUP-012,Digital Spark,Marketing & Comms,PPC Campaigns,4100.00,Marketing,CC-005,INV-DI-240603,NET30
+TXN-101,2024-06-04,SUP-001,TechPro Solutions,IT & Software,IT Support,6200.00,IT,CC-003,INV-TP-2407,NET30
+TXN-102,2024-06-05,SUP-008,SafetyFirst Co,Facilities Management,Security Services,6300.00,Finance,CC-002,INV-SF-240605,NET60
+TXN-103,2024-06-06,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240606,NET45
+TXN-104,2024-06-07,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,7500.00,IT,CC-003,INV-TB-240607,NET30
+TXN-105,2024-06-10,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240610,NET60
+TXN-106,2024-06-11,SUP-011,Brand Connect Ltd,Marketing & Comms,Events & Sponsorship,22000.00,Marketing,CC-005,INV-BC-240611,NET30
+TXN-107,2024-06-12,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2408,NET30
+TXN-108,2024-06-13,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240613,NET30
+TXN-109,2024-06-14,SUP-015,ConsultCo Ltd,Professional Services,Process Improvement,7800.00,Operations,CC-001,INV-CC-240614,NET30
+TXN-110,2024-06-17,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,3500.00,Finance,CC-002,INV-GT-240617,NET30
+TXN-111,2024-06-18,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,5600.00,Finance,CC-002,INV-EF-240618,NET30
+TXN-112,2024-06-19,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240619,NET45
+TXN-113,2024-06-20,SUP-009,GreenSpace FM,Facilities Management,Landscaping,3500.00,Operations,CC-001,INV-GS-240620,NET60
+TXN-114,2024-06-21,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,6100.00,Operations,CC-001,INV-BS-240621,NET60
+TXN-115,2024-06-24,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2408,NET30
+TXN-116,2024-06-25,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,12800.00,Marketing,CC-005,INV-ME-240625,NET30
+TXN-117,2024-06-26,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240626,NET30
+TXN-118,2024-06-27,SUP-013,McKay Advisory,Professional Services,Market Research,10500.00,Finance,CC-002,INV-MK-240627,NET45
+TXN-119,2024-07-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4700.00,Finance,CC-002,INV-SE-240701,NET30
+TXN-120,2024-07-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4600.00,Finance,CC-007,INV-SE-240701B,NET30
+TXN-121,2024-07-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4800.00,IT,CC-003,INV-SE-240701C,NET30
+TXN-122,2024-07-02,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240702,NET60
+TXN-123,2024-07-03,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,8800.00,HR,CC-004,INV-TB-240703,NET30
+TXN-124,2024-07-04,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2409,NET30
+TXN-125,2024-07-05,SUP-014,Stratford Partners,Professional Services,M&A Integration,28000.00,Finance,CC-002,INV-SP-240705,NET45
+TXN-126,2024-07-08,SUP-005,CyberShield Ltd,IT & Software,Firewall Licences,6100.00,IT,CC-003,INV-CS-240708,NET30
+TXN-127,2024-07-09,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240709,NET30
+TXN-128,2024-07-10,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,5500.00,Operations,CC-001,INV-BS-240710,NET60
+TXN-129,2024-07-11,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240711,NET45
+TXN-130,2024-07-12,SUP-017,HRPro Services,HR & Recruitment,Payroll Processing,4800.00,HR,CC-004,INV-HP-240712,NET30
+TXN-131,2024-07-15,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,7400.00,Marketing,CC-005,INV-BC-240715,NET30
+TXN-132,2024-07-16,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240716,NET30
+TXN-133,2024-07-17,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,2800.00,Operations,CC-001,INV-GT-240717,NET30
+TXN-134,2024-07-18,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2409,NET30
+TXN-135,2024-07-19,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240719,NET60
+TXN-136,2024-07-22,SUP-015,ConsultCo Ltd,Professional Services,PMO Support,8800.00,Finance,CC-002,INV-CC-240722,NET30
+TXN-137,2024-07-23,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4400.00,Sales,CC-006,INV-EF-240723,NET30
+TXN-138,2024-07-24,SUP-012,Digital Spark,Marketing & Comms,SEO & Performance,4500.00,Marketing,CC-005,INV-DI-240724,NET30
+TXN-139,2024-07-25,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240725,NET45
+TXN-140,2024-07-26,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2410,NET30
+TXN-141,2024-07-29,SUP-008,SafetyFirst Co,Facilities Management,Security Services,6300.00,Operations,CC-001,INV-SF-240729,NET60
+TXN-142,2024-07-30,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,10200.00,Marketing,CC-005,INV-ME-240730,NET30
+TXN-143,2024-08-01,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240801,NET45
+TXN-144,2024-08-02,SUP-007,BuildServ Ltd,Facilities Management,Summer Maintenance,8900.00,Operations,CC-001,INV-BS-240802,NET60
+TXN-145,2024-08-05,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,6500.00,IT,CC-003,INV-TB-240805,NET30
+TXN-146,2024-08-06,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240806,NET60
+TXN-147,2024-08-07,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2410,NET30
+TXN-148,2024-08-08,SUP-004,SoftEdge AG,IT & Software,Software Development,12800.00,IT,CC-003,INV-SE-240808,NET30
+TXN-149,2024-08-09,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240809,NET30
+TXN-150,2024-08-12,SUP-011,Brand Connect Ltd,Marketing & Comms,Events & Sponsorship,18000.00,Marketing,CC-005,INV-BC-240812,NET30
+TXN-151,2024-08-13,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240813,NET30
+TXN-152,2024-08-14,SUP-014,Stratford Partners,Professional Services,M&A Integration,22000.00,Finance,CC-002,INV-SP-240814,NET45
+TXN-153,2024-08-15,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2411,NET30
+TXN-154,2024-08-16,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,3100.00,Sales,CC-006,INV-GT-240816,NET30
+TXN-155,2024-08-19,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240819,NET30
+TXN-156,2024-08-20,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240820,NET45
+TXN-157,2024-08-21,SUP-009,GreenSpace FM,Facilities Management,Landscaping,3800.00,Operations,CC-001,INV-GS-240821,NET60
+TXN-158,2024-08-22,SUP-015,ConsultCo Ltd,Professional Services,IT Consulting,8100.00,IT,CC-003,INV-CC-240822,NET30
+TXN-159,2024-08-23,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,5100.00,Operations,CC-001,INV-BS-240823,NET60
+TXN-160,2024-08-26,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240826,NET60
+TXN-161,2024-08-27,SUP-001,TechPro Solutions,IT & Software,IT Support,6200.00,Finance,CC-002,INV-TP-2411,NET30
+TXN-162,2024-08-28,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4800.00,Finance,CC-002,INV-EF-240828,NET30
+TXN-163,2024-09-02,SUP-016,TalentBridge,HR & Recruitment,Executive Search,16500.00,Finance,CC-002,INV-TB-240902,NET30
+TXN-164,2024-09-03,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-240903,NET45
+TXN-165,2024-09-04,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2412,NET30
+TXN-166,2024-09-05,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,14500.00,Marketing,CC-005,INV-ME-240905,NET30
+TXN-167,2024-09-06,SUP-005,CyberShield Ltd,IT & Software,Firewall Licences,6100.00,IT,CC-003,INV-CS-240906,NET30
+TXN-168,2024-09-09,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-240909,NET45
+TXN-169,2024-09-10,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240910,NET60
+TXN-170,2024-09-11,SUP-012,Digital Spark,Marketing & Comms,PPC Campaigns,4700.00,Marketing,CC-005,INV-DI-240911,NET30
+TXN-171,2024-09-12,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,5900.00,Operations,CC-001,INV-BS-240912,NET60
+TXN-172,2024-09-13,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-240913,NET30
+TXN-173,2024-09-16,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2412,NET30
+TXN-174,2024-09-17,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,7600.00,Marketing,CC-005,INV-BC-240917,NET30
+TXN-175,2024-09-18,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,4600.00,Sales,CC-006,INV-GT-240918,NET30
+TXN-176,2024-09-19,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-240919,NET30
+TXN-177,2024-09-20,SUP-015,ConsultCo Ltd,Professional Services,Project Management,8500.00,Finance,CC-002,INV-CC-240920,NET30
+TXN-178,2024-09-23,SUP-008,SafetyFirst Co,Facilities Management,Security Services,6300.00,Operations,CC-008,INV-SF-240923,NET60
+TXN-179,2024-09-24,SUP-014,Stratford Partners,Professional Services,M&A Integration,24500.00,Finance,CC-002,INV-SP-240924,NET45
+TXN-180,2024-09-25,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2413,NET30
+TXN-181,2024-09-26,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-240926,NET60
+TXN-182,2024-09-27,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-240927,NET30
+TXN-183,2024-09-30,SUP-013,McKay Advisory,Professional Services,Market Research,12500.00,Finance,CC-002,INV-MK-240930,NET45
+TXN-184,2024-10-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4850.00,Finance,CC-002,INV-SE-241001,NET30
+TXN-185,2024-10-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4750.00,IT,CC-003,INV-SE-241001B,NET30
+TXN-186,2024-10-01,SUP-004,SoftEdge AG,IT & Software,ERP Customisation,4900.00,Operations,CC-001,INV-SE-241001C,NET30
+TXN-187,2024-10-02,SUP-007,BuildServ Ltd,Facilities Management,HVAC Maintenance,7400.00,Operations,CC-001,INV-BS-241002,NET60
+TXN-188,2024-10-03,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,7700.00,Marketing,CC-005,INV-TB-241003,NET30
+TXN-189,2024-10-07,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2413,NET30
+TXN-190,2024-10-08,SUP-011,Brand Connect Ltd,Marketing & Comms,Events & Sponsorship,19500.00,Marketing,CC-005,INV-BC-241008,NET30
+TXN-191,2024-10-09,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-241009,NET45
+TXN-192,2024-10-10,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-241010,NET30
+TXN-193,2024-10-11,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-241011,NET60
+TXN-194,2024-10-14,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2414,NET30
+TXN-195,2024-10-15,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-241015,NET45
+TXN-196,2024-10-16,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,5300.00,Finance,CC-002,INV-EF-241016,NET30
+TXN-197,2024-10-17,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,11200.00,Marketing,CC-005,INV-ME-241017,NET30
+TXN-198,2024-10-18,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-241018,NET30
+TXN-199,2024-10-21,SUP-009,GreenSpace FM,Facilities Management,Landscaping,3200.00,Operations,CC-001,INV-GS-241021,NET60
+TXN-200,2024-10-22,SUP-015,ConsultCo Ltd,Professional Services,Change Management,9500.00,HR,CC-004,INV-CC-241022,NET30
+TXN-201,2024-10-23,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-241023,NET45
+TXN-202,2024-10-24,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-241024,NET60
+TXN-203,2024-10-25,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,6200.00,Operations,CC-001,INV-BS-241025,NET60
+TXN-204,2024-10-28,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,7200.00,HR,CC-004,INV-TB-241028,NET30
+TXN-205,2024-10-29,SUP-001,TechPro Solutions,IT & Software,Hardware,7800.00,IT,CC-003,INV-TP-2414,NET30
+TXN-206,2024-10-30,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,7800.00,Marketing,CC-005,INV-BC-241030,NET30
+TXN-207,2024-11-01,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,3600.00,Operations,CC-001,INV-GT-241101,NET30
+TXN-208,2024-11-04,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2415,NET30
+TXN-209,2024-11-05,SUP-014,Stratford Partners,Professional Services,M&A Integration,19500.00,Finance,CC-002,INV-SP-241105,NET45
+TXN-210,2024-11-06,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-241106,NET45
+TXN-211,2024-11-07,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-241107,NET60
+TXN-212,2024-11-08,SUP-017,HRPro Services,HR & Recruitment,Payroll Processing,4800.00,HR,CC-004,INV-HP-241108,NET30
+TXN-213,2024-11-11,SUP-005,CyberShield Ltd,IT & Software,Endpoint Protection,4900.00,IT,CC-003,INV-CS-241111,NET30
+TXN-214,2024-11-12,SUP-010,MediaEdge Agency,Marketing & Comms,Digital Advertising,9500.00,Marketing,CC-005,INV-ME-241112,NET30
+TXN-215,2024-11-13,SUP-007,BuildServ Ltd,Facilities Management,Maintenance & Repair,5400.00,Operations,CC-001,INV-BS-241113,NET60
+TXN-216,2024-11-14,SUP-012,Digital Spark,Marketing & Comms,Social Media Management,4800.00,Marketing,CC-005,INV-DI-241114,NET30
+TXN-217,2024-11-15,SUP-003,DataSec International,IT & Software,Cybersecurity,5500.00,IT,CC-003,INV-DS-241115,NET30
+TXN-218,2024-11-18,SUP-016,TalentBridge,HR & Recruitment,Executive Search,18000.00,Sales,CC-006,INV-TB-241118,NET30
+TXN-219,2024-11-19,SUP-015,ConsultCo Ltd,Professional Services,IT Consulting,8400.00,IT,CC-003,INV-CC-241119,NET30
+TXN-220,2024-11-20,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2415,NET30
+TXN-221,2024-11-21,SUP-014,Stratford Partners,Professional Services,Financial Advisory,14500.00,Finance,CC-002,INV-SP-241121,NET45
+TXN-222,2024-11-22,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-241122,NET60
+TXN-223,2024-11-25,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-241125,NET45
+TXN-224,2024-11-26,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2416,NET30
+TXN-225,2024-11-27,SUP-011,Brand Connect Ltd,Marketing & Comms,Events & Sponsorship,24000.00,Marketing,CC-005,INV-BC-241127,NET30
+TXN-226,2024-11-28,SUP-019,ExecutiveFlight Ltd,Travel & Expenses,Air Travel,4100.00,Finance,CC-002,INV-EF-241128,NET30
+TXN-227,2024-12-02,SUP-007,BuildServ Ltd,Facilities Management,Year-End Maintenance,12500.00,Operations,CC-001,INV-BS-241202,NET60
+TXN-228,2024-12-03,SUP-016,TalentBridge,HR & Recruitment,Recruitment Fees,8200.00,Finance,CC-002,INV-TB-241203,NET30
+TXN-229,2024-12-04,SUP-013,McKay Advisory,Professional Services,Strategy Consulting,18000.00,Finance,CC-002,INV-MK-241204,NET45
+TXN-230,2024-12-05,SUP-010,MediaEdge Agency,Marketing & Comms,Campaign Management,16500.00,Marketing,CC-005,INV-ME-241205,NET30
+TXN-231,2024-12-06,SUP-006,CleanRight FM,Facilities Management,Cleaning Services,4200.00,Operations,CC-001,INV-CR-241206,NET60
+TXN-232,2024-12-09,SUP-001,TechPro Solutions,IT & Software,Software Licences,12500.00,IT,CC-003,INV-TP-2416,NET30
+TXN-233,2024-12-10,SUP-003,DataSec International,IT & Software,Annual Security Audit,12000.00,IT,CC-003,INV-DS-241210,NET30
+TXN-234,2024-12-11,SUP-014,Stratford Partners,Professional Services,Year-End Advisory,18500.00,Finance,CC-002,INV-SP-241211,NET45
+TXN-235,2024-12-12,SUP-002,CloudBase Ltd,IT & Software,Cloud Infrastructure,9100.00,IT,CC-003,INV-CB-2417,NET30
+TXN-236,2024-12-13,SUP-017,HRPro Services,HR & Recruitment,HR Outsourcing,5100.00,HR,CC-004,INV-HP-241213,NET30
+TXN-237,2024-12-16,SUP-008,SafetyFirst Co,Facilities Management,Year-End Security Review,4900.00,Operations,CC-001,INV-SF-241216,NET60
+TXN-238,2024-12-17,SUP-015,ConsultCo Ltd,Professional Services,Project Closeout,6500.00,Finance,CC-002,INV-CC-241217,NET30
+TXN-239,2024-12-18,SUP-011,Brand Connect Ltd,Marketing & Comms,Brand Strategy,8500.00,Marketing,CC-005,INV-BC-241218,NET30
+TXN-240,2024-12-19,SUP-018,GlobalTravel Corp,Travel & Expenses,Business Travel,4200.00,Sales,CC-006,INV-GT-241219,NET30
