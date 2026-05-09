@@ -3,7 +3,7 @@ import os
 from typing import Any, Callable, Optional
 
 import pandas as pd
-from openai import AzureOpenAI
+from huggingface_hub import InferenceClient
 
 _SYSTEM = """You are a senior procurement consultant with 15 years of experience in
 spend analysis, strategic sourcing, and cost optimisation. You produce board-ready
@@ -34,12 +34,10 @@ def _strip_fences(text: str) -> str:
 class SpendAnalysisAgent:
     def __init__(self, progress_callback: Optional[Callable[[str], None]] = None) -> None:
         self._log = progress_callback or (lambda _: None)
-        self._client = AzureOpenAI(
-            api_key=_get_secret("AZURE_OPENAI_API_KEY"),
-            api_version=_get_secret("AZURE_OPENAI_API_VERSION", "2024-12-01-preview"),
-            azure_endpoint=_get_secret("AZURE_OPENAI_ENDPOINT"),
+        self._client = InferenceClient(
+            model=_get_secret("HF_MODEL", "mistralai/Mistral-7B-Instruct-v0.3"),
+            token=_get_secret("HF_API_TOKEN"),
         )
-        self._deployment = _get_secret("AZURE_OPENAI_DEPLOYMENT", "gpt-5.2")
 
     def analyze(self, data: dict, company_context: str) -> dict:
         df_tx: pd.DataFrame = data["transactions"]
@@ -261,13 +259,12 @@ Use specific numbers from the data. Savings estimates must be 5-15% of addressab
     # LLM call
     # ------------------------------------------------------------------
     def _call_llm(self, prompt: str) -> dict:
-        response = self._client.chat.completions.create(
-            model=self._deployment,
-            max_completion_tokens=3000,
+        response = self._client.chat_completion(
             messages=[
                 {"role": "system", "content": _SYSTEM},
                 {"role": "user", "content": prompt},
             ],
+            max_tokens=3000,
         )
         raw = response.choices[0].message.content or ""
         return json.loads(_strip_fences(raw))
